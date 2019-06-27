@@ -19,7 +19,7 @@ export class InfiniteScroll implements ComponentInterface {
   @State() isLoading = false;
 
   constructor() {
-    this.onScrollBound = this.onScroll.bind(this)
+    this.onScrollBound = this.onScroll.bind(this);
   }
 
   /**
